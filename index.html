@@ -7,107 +7,92 @@
 <title>Lensa Media Pewarta</title>
 
 <style>
-body {
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f2f4f7;
-    color:#222;
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f2f4f7;
+color:#222;
 }
 
-header {
-    background:#123b63;
-    color:white;
-    padding:30px;
-    text-align:center;
+header{
+background:#123b63;
+color:white;
+padding:30px;
+text-align:center;
 }
 
-header h1 {
-    margin:0;
-    font-size:34px;
+header h1{
+margin:0;
+font-size:34px;
 }
 
-header p {
-    margin-top:8px;
+header p{
+margin-top:10px;
 }
 
-nav {
-    background:#0b2945;
-    padding:12px;
-    text-align:center;
+nav{
+background:#0b2945;
+padding:15px;
+text-align:center;
 }
 
-nav a {
-    color:white;
-    text-decoration:none;
-    margin:8px;
-    font-size:14px;
+nav a{
+color:white;
+text-decoration:none;
+margin:8px;
+font-size:14px;
 }
 
-.container {
-    max-width:1100px;
-    margin:auto;
-    padding:20px;
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
 }
 
-.welcome {
-    background:white;
-    padding:25px;
-    border-radius:10px;
+.box{
+background:white;
+padding:25px;
+border-radius:10px;
+margin-bottom:25px;
 }
 
-h2 {
-    color:#123b63;
+.gambar-berita{
+height:250px;
+background:#d9e2ec;
+border-radius:10px;
+margin-bottom:20px;
 }
 
-.berita-utama {
-    background:white;
-    padding:25px;
-    margin-top:20px;
-    border-radius:10px;
-}
-.gambar-berita {
-    width:100%;
-    height:300px;
-    background:#d9e2ec;
-    border-radius:10px;
-    margin-bottom:20px;
+.kartu-berita{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
 }
 
-.kartu-berita {
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
+.item-berita{
+background:white;
+padding:20px;
+border-radius:10px;
+flex:1;
+min-width:250px;
 }
 
-.item-berita {
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    flex:1;
-    min-width:250px;
+.tombol{
+display:inline-block;
+background:#123b63;
+color:white;
+padding:10px 15px;
+border-radius:5px;
+text-decoration:none;
 }
 
-.tombol {
-    display:inline-block;
-    background:#123b63;
-    color:white;
-    padding:10px 15px;
-    border-radius:5px;
-    text-decoration:none;
-}
-.kartu {
-    background:white;
-    padding:20px;
-    margin-top:15px;
-    border-radius:10px;
-}
-
-footer {
-    background:#123b63;
-    color:white;
-    text-align:center;
-    padding:25px;
-    margin-top:30px;
+footer{
+background:#123b63;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
 }
 
 </style>
@@ -145,25 +130,22 @@ footer {
 <div class="container">
 
 
-<div class="welcome">
+<div class="box">
 
 <h2>Selamat Datang di Lensa Media Pewarta</h2>
 
 <p>
-Lensa Media Pewarta merupakan media online Balai Pewarta Nasional
-yang menyajikan informasi, fakta dan perspektif kepada masyarakat
-secara informatif, berimbang dan mudah dibaca.
+Lensa Media Pewarta merupakan media online Balai Pewarta Nasional yang menyajikan informasi, fakta dan perspektif kepada masyarakat secara informatif, berimbang dan mudah dibaca.
 </p>
 
 </div>
 
 
-<div class="berita-utama">
+<div class="box">
 
 <h2>Berita Utama</h2>
 
-<div class="gambar-berita">
-</div>
+<div class="gambar-berita"></div>
 
 <h3>
 Lensa Media Pewarta Hadir Menyajikan Informasi, Fakta dan Perspektif
@@ -174,8 +156,7 @@ Lensa Media Pewarta Hadir Menyajikan Informasi, Fakta dan Perspektif
 </p>
 
 <p>
-Portal media online Balai Pewarta Nasional yang menyajikan informasi,
-fakta dan perspektif kepada masyarakat secara informatif dan berimbang.
+Portal media online Balai Pewarta Nasional yang hadir sebagai sarana informasi publik dengan mengedepankan pemberitaan yang informatif dan berimbang.
 </p>
 
 <a class="tombol" href="#">
@@ -185,14 +166,16 @@ Baca Selengkapnya
 </div>
 
 
-<<h2>Berita Terbaru</h2>
+
+<h2>Berita Terbaru</h2>
+
 
 <div class="kartu-berita">
 
+
 <div class="item-berita">
 
-<div class="gambar-berita">
-</div>
+<div class="gambar-berita"></div>
 
 <h3>Informasi Nasional</h3>
 
@@ -207,10 +190,10 @@ Baca Selengkapnya
 </div>
 
 
+
 <div class="item-berita">
 
-<div class="gambar-berita">
-</div>
+<div class="gambar-berita"></div>
 
 <h3>Informasi Daerah</h3>
 
@@ -225,10 +208,10 @@ Baca Selengkapnya
 </div>
 
 
+
 <div class="item-berita">
 
-<div class="gambar-berita">
-</div>
+<div class="gambar-berita"></div>
 
 <h3>Pemerintahan</h3>
 
@@ -242,27 +225,19 @@ Baca Selengkapnya
 
 </div>
 
-</div>
-<h3>Informasi Nasional</h3>
-
-<p>
-Berita nasional terbaru dari Lensa Media Pewarta.
-</p>
 
 </div>
 
-
+</div>
 
 
 <footer>
 
-<p>
 <strong>Lensa Media Pewarta</strong>
-</p>
 
-<p>
+<br>
+
 Media Online Balai Pewarta Nasional
-</p>
 
 </footer>
 
